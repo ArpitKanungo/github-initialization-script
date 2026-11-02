@@ -41,7 +41,7 @@ def main():
         print("❌ Please update 'config.json' with your actual GitHub repository URL first!")
         return
 
-    demo_dir = "netpluse"
+    demo_dir = "netpulse"
     if os.path.exists(demo_dir):
         shutil.rmtree(demo_dir, onerror=remove_readonly)
     os.makedirs(demo_dir)
